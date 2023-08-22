@@ -1,0 +1,28 @@
+* {
+    background-color: #fcfcfc;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+    font-size: 50px;
+}
+input {
+    border: 1px solid rgb(137, 137, 137);
+}

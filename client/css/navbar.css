@@ -1,0 +1,53 @@
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 15px 0 15px;
+}
+#navBar img {
+    margin: auto auto;
+}
+#links a {
+    padding-right: 20px;
+    transition: 500ms;
+}
+
+#links a:hover {
+    color: #a64d79;
+    text-decoration: underline;
+}
+#functions {
+    display: flex;
+}
+
+#menuIcon {
+    position: absolute;
+    right: 20px;
+    width: 15px;
+    cursor: pointer;
+
+    transition: 900px;
+}
+.on {
+    transform: rotate(90deg);
+}
+#menu {
+    margin: 10px;
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 200ms;
+    height: 100%;
+}
+
+#menu a {
+    margin: 40px;
+}
+#menu a:hover {
+    color: #a64d79;
+    text-decoration: underline;
+}
