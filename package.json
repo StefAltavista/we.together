@@ -1,12 +1,13 @@
 {
-    "name": "react-init",
+    "name": "we.together",
     "version": "1.0.0",
-    "description": "react project boilerplate",
-    "main": "index.js",
+    "description": "We.together Coding challenge",
+    "main": "dist/index.html",
     "scripts": {
         "dev": "webpack-dev-server --mode development --open --hot",
         "start": "node server/server.js",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "prod": "webpack-dev-server --mode production --open --hot"
     },
     "author": "stef altavista",
     "license": "ISC",
